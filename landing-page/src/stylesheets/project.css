@@ -1,0 +1,76 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 7%;
+
+}
+
+.calculator{
+    width: 100%;
+}
+
+
+.calculator:hover {
+    animation: bubble .4s ease-out;
+
+}
+
+@keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+
+.project-title{
+    text-align: left;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+
+.tools-container{
+    width: 100%;
+   display:flex;
+}
+
+.tools{
+    width: 30%;
+    text-align: left;
+    font-weight:400;
+    margin-top: 2%;
+}
+
+.link-container{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+.code,
+.live{
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+
+.code:hover,
+.live:hover{
+    background-color:#2C2C29;
+}
+
+@media (max-width: 850px){
+  .project{
+    width: 80%;
+    margin-top: 15%;
+
+}
+
+
+}

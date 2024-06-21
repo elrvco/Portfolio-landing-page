@@ -1,0 +1,127 @@
+
+
+.header {
+    display: flex;
+    background-color:  #141515;
+    height: 100px;
+    width: 80%;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #212323;
+    height: 100px;
+    width: 80%;
+
+}
+
+.name {
+    display:flex;
+    align-items:center ;
+    justify-content: left;
+    width: 60%;
+    color:white;
+}
+
+.logo-cont {
+    width:40%;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #212323;
+}
+
+
+.github-cont,
+.linkedin-cont,
+.instagram-cont {
+    width: 10%;
+    aspect-ratio: 1/1;
+    margin-right:15%;
+}
+
+
+.github-logo,
+.linkedin-logo,
+.instagram-logo {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+@media (max-width: 850px){
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        height: 100px;
+        width: 90%;
+    
+    }
+
+    .name {
+        display:flex;
+        align-items:center ;
+        justify-content: center;
+        width: 100%;
+        color:white;
+    
+    }
+    
+    .header > .logo-cont {
+        width:60%;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(to top,#161818,#141515);
+        margin-top: 2%;
+    }
+
+    .github-cont,
+    .linkedin-cont,
+    .instagram-cont {
+        display:flex;
+        align-items: center;
+        width: 13%;
+        aspect-ratio: 1/1;
+        margin-right:0;
+    }
+
+    .github-logo,
+    .linkedin-logo,
+    .instagram-logo {
+        width: 60%;
+        aspect-ratio: 1/1;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        
+    
+    }
+
+    .footer > .logo-cont{
+        width:60%;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #212323;
+       
+    }
+
+    .footer > .name{
+        margin-bottom: 0%;
+
+    }
+
+
+
+}

@@ -1,0 +1,58 @@
+.HTML-container,
+.CSS-container,
+.Javascript-container,
+.React-container,
+.SQL-container,
+.FIGMA-container{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.HTML,
+.CSS,
+.Javascript,
+.React,
+.SQL,
+.FIGMA{
+    width: 60%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.technology-image{
+    width: 20%;
+    aspect-ratio: 1/1;
+}
+
+
+@media (max-width: 850px){
+  .HTML-container,
+  .CSS-container,
+  .Javascript-container,
+  .React-container,
+  .SQL-container,
+  .FIGMA-container{
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 7%;
+  }
+
+  .HTML,
+  .CSS,
+  .Javascript,
+  .React,
+  .SQL,
+  .FIGMA{
+    text-align: left;
+
+  }
+
+  .technology-image{
+    width: 15%;
+  }
+   
+}
