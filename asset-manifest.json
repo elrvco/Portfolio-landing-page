@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-landing-page/static/css/main.3190f885.css",
+    "main.js": "/Portfolio-landing-page/static/js/main.a9fc4a05.js",
+    "static/media/figma-logo.png": "/Portfolio-landing-page/static/media/figma-logo.ce402f9a5ae4a1f33e53.png",
+    "static/media/linkedin-logo.png": "/Portfolio-landing-page/static/media/linkedin-logo.a18fd0e384ab23935aea.png",
+    "static/media/profile-pic-background.png": "/Portfolio-landing-page/static/media/profile-pic-background.fc6844aea0a1c9e3cfb9.png",
+    "static/media/calculator.png": "/Portfolio-landing-page/static/media/calculator.8aa2bb7688bb032b93d4.png",
+    "static/media/html-logo.png": "/Portfolio-landing-page/static/media/html-logo.1d7b133e22ffe4829da6.png",
+    "static/media/whatsapp-qr.PNG": "/Portfolio-landing-page/static/media/whatsapp-qr.d621ac4468de8732c606.PNG",
+    "static/media/instagram-logo.png": "/Portfolio-landing-page/static/media/instagram-logo.e2552953b34eb3598e5e.png",
+    "static/media/javascript-logo.png": "/Portfolio-landing-page/static/media/javascript-logo.9ac57f96ad1c8941a3b7.png",
+    "static/media/react-logo.png": "/Portfolio-landing-page/static/media/react-logo.ea6d51df3cab0fabe513.png",
+    "static/media/css-logo.png": "/Portfolio-landing-page/static/media/css-logo.e734cffbd94ec32d751d.png",
+    "static/media/github-logo.png": "/Portfolio-landing-page/static/media/github-logo.987334e9f782cc505f25.png",
+    "static/media/sql-logo.png": "/Portfolio-landing-page/static/media/sql-logo.716ccee06a2406fb4ec4.png",
+    "index.html": "/Portfolio-landing-page/index.html",
+    "main.3190f885.css.map": "/Portfolio-landing-page/static/css/main.3190f885.css.map",
+    "main.a9fc4a05.js.map": "/Portfolio-landing-page/static/js/main.a9fc4a05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3190f885.css",
+    "static/js/main.a9fc4a05.js"
+  ]
+}
