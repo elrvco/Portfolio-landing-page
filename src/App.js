@@ -55,11 +55,19 @@ function App() {
       </div>
       <div className='projects-container'>
         <Project
-        title= 'Calculator'
-        tech1='HTML'
-        tech2='CSS'
-        tech3='JavaScript'
-        imgClass= 'calculator'
+          title= 'Calculator' /*use as title the same name of the repo on github*/
+          tech1='HTML'
+          tech2='CSS'
+          tech3='JavaScript'
+          imgClass= 'calculator'
+        />
+
+        <Project
+          title= 'IP-Address-Tracker'
+          tech1='CSS'
+          tech2='React'
+          tech3='API'
+          imgClass= 'tracker-image'
         />
       </div>
       <div id='contact-container'>
@@ -71,8 +79,8 @@ function App() {
             <p> Alternatively, you can reach out to me via LinkedIn by clicking on one of the LinkedIn logos.</p>
           </div>
           <div className='qr-cont'>
-            <a href='https://wa.me/16157397999'>
-              <img className='qr-image' alt='whatsapp qr code' src={require('./images/whatsapp-qr.PNG')}/>
+            <a href='https://wa.me/522224425673'>
+              <img className='qr-image' alt='whatsapp qr code' src={require('./images/whatsapp910-qr.png')}/>
             </a>
           </div>
         </div>

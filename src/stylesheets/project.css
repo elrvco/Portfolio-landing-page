@@ -6,12 +6,15 @@
 
 }
 
-.calculator{
-    width: 100%;
+.calculator,
+.tracker-image
+{
+    width: 80%;
 }
 
 
-.calculator:hover {
+.calculator:hover,
+.tracker-image:hover {
     animation: bubble .4s ease-out;
 
 }
@@ -71,6 +74,8 @@
     margin-top: 15%;
 
 }
+
+
 
 
 }
