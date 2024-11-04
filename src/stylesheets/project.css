@@ -7,14 +7,16 @@
 }
 
 .calculator,
-.tracker-image
+.tracker-image,
+.pokedex
 {
     width: 80%;
 }
 
 
 .calculator:hover,
-.tracker-image:hover {
+.tracker-image:hover,
+.pokedex:hover {
     animation: bubble .4s ease-out;
 
 }

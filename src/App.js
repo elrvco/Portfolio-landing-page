@@ -69,6 +69,16 @@ function App() {
           tech3='API'
           imgClass= 'tracker-image'
         />
+
+        <Project
+          title= 'pokedex'
+          tech1= 'HTML'
+          tech2= 'JavaScript'
+          tech3= 'API'
+          imgClass= 'pokedex'
+        />
+
+
       </div>
       <div id='contact-container'>
         <h1>Contact</h1>
